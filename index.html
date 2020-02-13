@@ -10,14 +10,29 @@
     <link href="bootstrap-4.4.1-dist/js/bootstrap.js" rel="stylesheet" media="all">
 </head>
 <body>
-    <h1>This is a web application that calculates the day of the week you were born and 
-        your Akan name. The Akan people are from Ghana and Ivory Coast. The well-known Ashanti 
-        are the largest Akan people.This is simply done by entering the following details.This is a completely 
-        safe site and considers your privacy.
-    </h1>
-    <p>The web application takes your birthday, birthmonth, year of birth and gender. 
-        The program's database then outputs your Akan name and the exact day of the week you were born! 
-    </p>
-    <script src="js.js"></script>
+    <div class="container">
+        <div class="jumbotron text-center"></div>
+            <h1>Akan Name</h1>
+         </div>
+        <h1>This is a web application that calculates the day of the week you were born and 
+            your Akan name. The Akan people are from Ghana and Ivory Coast. The well-known Ashanti 
+            are the largest Akan people.This is simply done by entering the following details.This is a completely 
+            safe site and considers your privacy.
+        </h1>
+        <p>The web application takes your birthday, birthmonth, year of birth and gender. 
+            The program's database then outputs your Akan name and the exact day of the week you were born! 
+        </p>
+        <h2>FILL IN THE FORM TO GET YOUR AKAN NAME</h2><br>
+        <label>DAY</label><br>
+        <input type="number" id="day" placeholder="DD" class="form -control" required ><br>
+        <label>MONTH</label><br>
+        <input type="number" id="month" placeholder="MM" class="form -control" required ><br>
+        <label>YEAR</label><br>
+        <input type="number" id="year" placeholder="DD" class="form -control" required ><br>
+        <label>GENDER</label><br>
+        <input type="radio" name="gender" id="day" placeholder="DD" class="form -control" required ><br>
+        <input type="radio" name="gender" value="female" > Female<br>
+        <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+        <script src="js.js"></script>
 </body>
 </html>
