@@ -77,3 +77,7 @@ else if (Math.ceil(result) == 0 && gender === 'female')	{
 	document.getElementById("outcome").innerHTML =
 	("Born on Sunday ,your akan name is " + girl[0])
 }
+else{
+	alert("enter your information please");
+}
+}
