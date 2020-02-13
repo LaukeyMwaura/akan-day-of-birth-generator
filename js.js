@@ -15,5 +15,36 @@ function output()	{
 	else	{
 		var gender = 'female';
 	}
-	if (mm < 1 || mm > 12 || mm == 2 && dd 29)
+	if (mm < 1 || mm > 12 || mm == 2 && dd 29)	{
+		alert("INVALID MONTH");
+	}
+	else if (dd < 1 || dd > 31)	{
+		alert("INVALID DAY");
+	}
+	else if (Math.ceil(result) == 1 && gender === 'male');{
+		document.getElementById("outcome").innerHTML =
+		("Born on Monday  , your akan nake is " + boy[1]);
+	}
+	else if (Math.ceil(result) == 2 && gender === 'male');{
+		document.getElementById("outcome").innerHTML =
+		("Born on Tuesday  , your akan nake is " + boy[2]);
 }
+else if (Math.ceil(result) == 3 && gender === 'male');{
+	document.getElementById("outcome").innerHTML =
+	("Born on Wednesday  , your akan nake is " + boy[3]);
+}
+else if (Math.ceil(result) == 4 && gender === 'male');{
+	document.getElementById("outcome").innerHTML =
+	("Born on Thursaday  , your akan nake is " + boy[4]);
+}
+else if (Math.ceil(result) == 5 && gender === 'male');{
+	document.getElementById("outcome").innerHTML =
+	("Born on Friday  , your akan nake is " + boy[5]);
+}
+else if (Math.ceil(result) == 6 && gender === 'male');{
+	document.getElementById("outcome").innerHTML =
+	("Born on Saturaday  , your akan nake is " + boy[6]);
+}
+else if (Math.ceil(result) == 7 && gender === 'male');{
+	document.getElementById("outcome").innerHTML =
+	("Born on Sunday  , your akan nake is " + boy[7]);
