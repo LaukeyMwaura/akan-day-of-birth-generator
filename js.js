@@ -11,19 +11,19 @@ function output()	{
 	var girl = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
 	if (document.getElementById("gender").checked)	{
 		var gender = 'male';
-	}
-	else	{
+		}
+		else	{
 		var gender = 'female';
-	}
-	if (mm < 1 || mm > 12 || mm == 2 && dd 29 )	{
+		}	
+		if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
 		alert("INVALID MONTH");
-	}
-	else if (dd < 1 || dd > 31)	{
-		alert("INVALID DAY");
-	}
-	else if (Math.ceil(result) == 1 && gender === 'male');{
-		document.getElementById("outcome").innerHTML =
-		("Born on Monday  , your akan nake is " + boy[1]);
+		}
+		else if (dd < 1 || dd > 31)	{
+			alert("INVALID DAY");
+		}
+		else if (Math.ceil(result) == 1 && gender === 'male');{
+			document.getElementById("outcome").innerHTML =
+			("Born on Monday  , your akan nake is " + boy[1]);
 	}
 	else if (Math.ceil(result) == 2 && gender === 'male');{
 		document.getElementById("outcome").innerHTML =
