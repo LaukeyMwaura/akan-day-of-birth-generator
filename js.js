@@ -27,27 +27,27 @@ function output()	{
 	}
 	if (Math.ceil(result) == 2 && gender === 'male') {
 	document.getElementById("outcome").innerHTML =
-	("Born on Tuesday  , your akan nake is " + boy[2]);
+	("Born on Tuesday  , your akan name is " + boy[2]);
 	}
 	else if (Math.ceil(result) == 3 && gender === 'male') {
 	document.getElementById("outcome").innerHTML =
-	("Born on Wednesday  , your akan nake is " + boy[3]);
+	("Born on Wednesday  , your akan name is " + boy[3]);
 	}
 	else if (Math.ceil(result) == 4 && gender === 'male') {
 	document.getElementById("outcome").innerHTML =
-	("Born on Thursaday  , your akan nake is " + boy[4]);
+	("Born on Thursaday  , your akan name is " + boy[4]);
 	}
 	else if (Math.ceil(result) == 5 && gender === 'male') {
 		document.getElementById("outcome").innerHTML =
-		("Born on Friday  , your akan nake is " + boy[5]);
+		("Born on Friday  , your akan name is " + boy[5]);
 	}
 	else if (Math.ceil(result) == 6 && gender === 'male') {
 		document.getElementById("outcome").innerHTML =
-		("Born on Saturday  , your akan nake is " + boy[6]);
+		("Born on Saturday  , your akan name is " + boy[6]);
 	}
 	else if (Math.ceil(result) == 0 && gender === 'male') {
 		document.getElementById("outcome").innerHTML =
-		("Born on Sunday  , your akan nake is " + boy[0]);
+		("Born on Sunday  , your akan name is " + boy[0]);
 	}
 	else if (Math.ceil(result) == 1 && gender === 'female')	{
 		document.getElementById("outcome").innerHTML =
@@ -81,3 +81,7 @@ function output()	{
 		alert("enter your information please");
 	}
 	}
+
+function refreshPage()	{
+	window.location.reload();
+}
