@@ -11,47 +11,42 @@
     <link href="style.css" rel="stylesheet" media="all">
 </head>
 <body>
-    <div class="row">
-        <div class="col-md-4">
-             <div class="container">
-                 <div class="jumbotron text-center">
-                    <h1 id="First">Akan Name</h1>
-                        <p class="body"> 
-                            This is a web application that calculates the day of the week you were born and 
-                            your Akan name. The Akan people are from Ghana and Ivory Coast. The well-known Ashanti 
-                            are the largest Akan people.This is simply done by entering the following details.This is a completely 
-                            safe site and considers your privacy.
-                        </p>
-                </div>
-            </div>
-        <div class="col-md-4">        
     <div class="container">
         <div class="jumbotron text-center">
-        </h1>
-        <p>The web application takes your birthday, birthmonth, year of birth and gender. 
-            The program's database then outputs your Akan name and the exact day of the week you were born! 
-        </p>
-        </div>
+            <h1 id="First">Akan Name</h1>
+                <p class="body"> 
+                    This is a web application that calculates the day of the week you were born and 
+                    your Akan name. The Akan people are from Ghana and Ivory Coast. The well-known Ashanti 
+                    are the largest Akan people.This is simply done by entering the following details.This is a completely 
+                    safe site and considers your privacy.
+                </p>
         </div>
     </div>
-    <div class="container">
-        <div class="jumbotron">
-            <h2>FILL IN THE FORM TO GET YOUR AKAN NAME</h2><br>
-            <label>DAY</label><br>
-            <input type="number" id="day" placeholder="dd" class="form -control" required ><br>
-            <label>MONTH</label><br>
-            <input type="number" id="month" placeholder="mm" class="form -control" required ><br>
-            <label>YEAR</label><br>
-            <input type="number" id="year" placeholder="yyyy" class="form -control" required ><br>
-            <label>GENDER</label><br>
-            <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female" > Female<br>
-            <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
-            <p id="outcome"></p>
-            <script src="js.js"></script>
+    <div class="row">
+        <div class="col-md-6">        
+            <div class="jumbotron text-center">
+                    <p>The web application takes your birthday, birthmonth, year of birth and gender. 
+                        The program's database then outputs your Akan name and the exact day of the week you were born! 
+                    </p>
+                </div>
+            </div>
+        <div class="col-md-4">
+            <div class="jumbotron">
+                <h2>FILL IN THE FORM TO GET YOUR AKAN NAME</h2><br>
+                <label>DAY</label><br>
+                <input type="number" id="day" placeholder="DD" class="form -control" required ><br>
+                <label>MONTH</label><br>
+                <input type="number" id="month" placeholder="MM" class="form -control" required ><br>
+                <label>YEAR</label><br>
+                <input type="number" id="year" placeholder="YYYY" class="form -control" required ><br>
+                <label>GENDER</label><br>
+                <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female" > Female<br>
+                <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+                <p id="outcome"></p>
+                <script src="js.js"></script>
+            </div>
         </div>
-     
     </div>
-
 </body>
 </html>
