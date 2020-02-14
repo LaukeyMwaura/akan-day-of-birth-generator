@@ -1,5 +1,5 @@
 function output()	{
-	var day = document.getElementById("day").value;
+	var day = document.getElementById("day").value ;
 	var dd = parseInt(day);
 	var month = document.getElementById("month").value;
 	var mm = parseInt(month);

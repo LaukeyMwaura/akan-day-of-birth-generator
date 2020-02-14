@@ -13,8 +13,7 @@
 <body>
     <div class="Part1">
     <div class="container">
-     
-        <div class="jumbotron text-center">
+        <div class="jumbotron text-center" style="background-color: gray;" style="font-size: xx-large;">
             <h1 id="First">Akan Name</h1>
                 <p class="body"> 
                     This is a web application that calculates the day of the week you were born and 
@@ -27,21 +26,23 @@
     </div>
     <div class="row">
         <div class="col-md-6">        
-            <div class="jumbotron text-center">
+            <div class="jumbotron text-center" style="background-color: blueviolet;">
+                <h1>HOW IT WORKS</h1>
                     <p>The web application takes your birthday, birthmonth, year of birth and gender. 
                         The program's database then outputs your Akan name and the exact day of the week you were born! 
                     </p>
                 </div>
             </div>
         <div class="col-md-5">
-            <div class="jumbotron">
-                <h2>FILL IN THE FORM TO GET YOUR AKAN NAME</h2><br>
+            <div class="jumbotron text-center" style="background-color: slateblue;">
+                <h2>FILL IN THE FORM TO GET </h2>
+                <h2>YOUR AKAN NAME</h2><br>
                 <label>DAY</label><br>
-                <input type="number" id="day" placeholder="DD" class="form -control" required ><br>
+                <input type="number" id="day" placeholder="DD" class="form -control" required max="31" min="1"><br>
                 <label>MONTH</label><br>
-                <input type="number" id="month" placeholder="MM" class="form -control" required ><br>
+                <input type="number" id="month" placeholder="MM" class="form -control" required max="12" min="1"><br>
                 <label>YEAR</label><br>
-                <input type="number" id="year" placeholder="YYYY" class="form -control" required ><br>
+                <input type="number" id="year" placeholder="YYYY" class="form -control" required min="0000"><br>
                 <label>GENDER</label><br>
                 <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
                 <input type="radio" name="gender" value="female" > Female<br>
