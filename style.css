@@ -12,19 +12,3 @@ body    {
     background-attachment: fixed;
     background-color: blue;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    body  {
-        background-color: chartreuse;
-        color: black
-    }
-}
-@media screen and (min-width: 768px)    {
-    body    {
-        background-color: blueviolet;
-        color: white;
-    }
-    .column {
-        width: 220px;
-        float: left;
-        padding: 15px;
-     }
