@@ -4,8 +4,9 @@
 A web application that takes a ``user's birthday`` , calculates the`` day of the week `` they were born and depending on their gender outputs their ``Akan Name``.
 
 
+
 # Author's Information 
-Victor Mburu Mwaura-
+Victor Mburu Mwaura-Lead Web developer
 
 
 # Setup instructions 
