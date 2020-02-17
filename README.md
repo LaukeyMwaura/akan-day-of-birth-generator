@@ -1,5 +1,8 @@
 # Akan-Names
+#### This is My profile if you need a web Developer, 17/02/2020
+<a href="https://github.com/LaukeyMwaura/akan-day-of-birth-generator"</a>
 
+<a href="https://laukeymwaura.github.io/akan-day-of-birth-generator/"</a>
 ## Description
 A web application that takes a ``user's birthday`` , calculates the`` day of the week `` they were born and depending on their gender outputs their ``Akan Name``.
 
